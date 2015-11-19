@@ -1,0 +1,11 @@
+<resources>
+	<string name="app_name">BroadcastReceiverSample</string>
+	<string name="broadcast_sample">Broadcast Receiver Sample</string>
+	<string name="local_broadcast_sample">Local Broadcast Receiver</string>
+	<string name="send_broadcast">Send Text Message</string>
+	<string name="local_broadcast">Local Broadcast</string>
+	<string name="poc_broadcast_receiver">POC BroadcastReceiver</string>
+	<string name="poc_local_broadcast_receiver">POC LocalBroadcastReceiver</string>
+	<string name="phone_number">Phone Number</string>
+	<string name="test_message">Hi, Test message! :)</string>
+</resources>
