@@ -17,7 +17,7 @@ public class UseLocalBroadcastActivity extends AppCompatActivity implements View
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_use_local_broadcast);
-		findViewById(R.id.sendBroadcast).setOnClickListener(this);
+		findViewById(R.id.send_broadcast).setOnClickListener(this);
 
 		mMyBroadcastReceiver = new MyLocalBroadcastReceiver();
 
@@ -27,8 +27,8 @@ public class UseLocalBroadcastActivity extends AppCompatActivity implements View
 
 	@Override
 	public void onClick(View view) {
-		if(view.getId() == R.id.sendBroadcast) {
-			EditText editTextPhone = (EditText) findViewById(R.id.phoneNumber);
+		if(view.getId() == R.id.send_broadcast) {
+			EditText editTextPhone = (EditText) findViewById(R.id.edit_text_phone);
 			String phoneNumber = editTextPhone.getText().toString();
 			Intent intent = new Intent();
 			intent.setAction(MY_LOCAL_BROADCAST_ACTION);

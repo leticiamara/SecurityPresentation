@@ -12,12 +12,12 @@ public class UseBroadcastReceiverActivity extends AppCompatActivity implements V
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_use_broadcast_receiver);
-		findViewById(R.id.sendBroadcast).setOnClickListener(this);
+		findViewById(R.id.send_broadcast).setOnClickListener(this);
 	}
 
 	@Override
 	public void onClick(View view) {
-		if(view.getId() == R.id.sendBroadcast) {
+		if(view.getId() == R.id.send_broadcast) {
 			EditText editTextPhone = (EditText) findViewById(R.id.edit_text_phone);
 			String phoneNumber = editTextPhone.getText().toString();
 			Intent intent = new Intent();
