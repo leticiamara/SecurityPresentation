@@ -1,0 +1,11 @@
+<resources>
+	<string name="app_name">My Login App</string>
+
+	<string name="user_info">User Info</string>
+	<string name="login">Login</string>
+	<string name="user_name">User Name</string>
+	<string name="password">Password</string>
+	<string name="sign_in">Sign In</string>
+	<string name="user_name_with_value">User Name: %1$s</string>
+	<string name="password_with_value">Password: %1$s</string>
+</resources>
